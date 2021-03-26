@@ -1,0 +1,10 @@
+﻿  Source.cpp
+C:\Users\BATYA\source\repos\Project4\Project4\Source.cpp(29,10): warning C4244: =: преобразование "double" в "int", возможна потеря данных
+C:\Users\BATYA\source\repos\Project4\Project4\Source.cpp(30,10): warning C4244: =: преобразование "double" в "int", возможна потеря данных
+C:\Users\BATYA\source\repos\Project4\Project4\Source.cpp(65,21): warning C4018: <: несоответствие типов со знаком и без знака
+C:\Users\BATYA\source\repos\Project4\Project4\Source.cpp(79,21): warning C4018: <: несоответствие типов со знаком и без знака
+C:\Users\BATYA\source\repos\Project4\Project4\Source.cpp(144,21): warning C4018: <: несоответствие типов со знаком и без знака
+C:\Users\BATYA\source\repos\Project4\Project4\Source.cpp(171,21): warning C4018: <: несоответствие типов со знаком и без знака
+C:\Users\BATYA\source\repos\Project4\Project4\Source.cpp(181,21): warning C4018: <: несоответствие типов со знаком и без знака
+C:\Users\BATYA\source\repos\Project4\Project4\Source.cpp(266,21): warning C4018: <: несоответствие типов со знаком и без знака
+  Project4.vcxproj -> C:\Users\BATYA\source\repos\Project4\Debug\Project4.exe
