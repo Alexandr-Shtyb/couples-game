@@ -1,0 +1,110 @@
+.title {
+	text-align: center;
+}
+
+.input {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 10px;
+	min-width: 500px;
+	min-height: 20px;
+	text-align: center;
+}
+
+.btn {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	min-width: 100px;
+	min-height: 20px;
+	text-align: center;
+}
+
+.list-cards {
+	display: grid;
+	justify-content: center;
+	grid-template-columns: 100px 100px 100px 100px;
+	grid-template-rows: 100px 100px 100px 100px;
+	padding-left: 0;
+	align-items: center;
+	text-align: center;
+	margin-left: auto;
+	margin-right: auto;
+	width: 400px;
+	max-height: 1500px;
+	border: 10px solid grey;
+	list-style-type: none;
+}
+
+.list-cards2 {
+	grid-template-columns: 100px 100px;
+	grid-template-rows: 100px 100px;
+	width: 200px;
+}
+
+.list-cards6 {
+	grid-template-columns: 100px 100px 100px 100px 100px 100px;
+	grid-template-rows: 100px 100px 100px 100px 100px 100px;
+	width: 600px;
+}
+
+.list-cards8 {
+	grid-template-columns: 100px 100px 100px 100px 100px 100px 100px 100px;
+	grid-template-rows: 100px 100px 100px 100px 100px 100px 100px 100px;
+	width: 800px;
+}
+
+.list-cards10 {
+	grid-template-columns: 100px 100px 100px 100px 100px 100px 100px 100px 100px 100px;
+	grid-template-rows: 100px 100px 100px 100px 100px 100px 100px 100px 100px 100px;
+	width: 1000px;
+}
+
+.button-card {
+	position: relative;
+	text-align: center;
+	font-size: 30px;
+	font-weight: bold;
+	color: #ff00ff;
+	width: 60px;
+	height: 60px;
+	border: 5px solid #800000;
+	cursor: pointer;
+}
+
+.button-card::before {
+	position: absolute;
+	content: '';
+	top: 0; bottom: 0;
+	left: 0; right: 0;
+	background: #f08080;
+}
+
+li {
+	padding-top: 10px;
+	margin-bottom: 10px;
+}
+
+.selected-button-card {
+	position: relative;
+	text-align: center;
+	font-size: 35px;
+	font-weight: bold;
+	color: cornflowerblue;
+	width: 60px;
+	height: 60px;
+	border: 5px solid #008000;
+}
+
+.selected-button-card::before {
+	position: absolute;
+	content: '';
+	top: 0; bottom: 0;
+	left: 0; right: 0;
+	opacity: 0;
+	background: #7fff00;
+}
+
+
+
